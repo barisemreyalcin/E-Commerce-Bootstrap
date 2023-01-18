@@ -21,3 +21,12 @@
 .btn-light:hover i {
     color: $primary;
 }
+
+.navbar-brand {
+    color: $primary;
+    font-size: 1.25rem;
+}
+
+.navbar-brand:hover {
+    color: #0f8a65;
+}
