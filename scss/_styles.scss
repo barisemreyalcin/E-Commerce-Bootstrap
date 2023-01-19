@@ -30,3 +30,25 @@
 .navbar-brand:hover {
     color: #0f8a65;
 }
+
+.slider {
+    &__nav {
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slider {
+        &__nav {
+            max-height: 300px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .slider {
+        &__nav {
+            max-height: 350px;
+        }
+    }
+}
