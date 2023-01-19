@@ -28,7 +28,7 @@
 }
 
 .navbar-brand:hover {
-    color: #0f8a65;
+    color: #2826a6;
 }
 
 .slider {
@@ -50,5 +50,45 @@
         &__nav {
             max-height: 350px;
         }
+    }
+}
+
+// Cards
+.card {
+    .img-wrap {
+    position: relative;
+    height: 240px;
+    display: block;   
+    padding: 1rem;
+    text-align: center;
+        
+        img {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+            max-width: 100%;
+        }
+
+        .badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+        }
+    }
+
+    .title {
+        display: block;
+        text-decoration: none;
+        color: #595959;
+    }
+
+    .info-wrap {
+        padding: 1rem 1.2rem;
+    }
+    
+    .btn-icon {
+        width: 2.5rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
